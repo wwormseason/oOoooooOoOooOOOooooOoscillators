@@ -30,6 +30,7 @@ function setup() {
     .position(10, 10)
     .mousePressed(() => {
       // when load is clicked the variable song is set to the current selection, which is then pushed into loadBuf so it gets the correct DEMO track
+      // changed demo track to be selectable
       let song = sel.value();
       loadBuf(song);
     });
